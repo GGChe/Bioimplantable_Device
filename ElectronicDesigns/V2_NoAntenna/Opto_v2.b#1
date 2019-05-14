@@ -385,21 +385,21 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="R1" library="CRCW06033K30FKEA" package="RESC1608X55" value="CRCW06033K30FKEA" x="30.32" y="32.68" rot="R180">
-<attribute name="DESCRIPTION" value=" Res Thick Film 0603 3.3K Ohm 1% 0.1W_1/10W_ ?100ppm/C SMD Automotive Paper T/R " x="30.32" y="32.68" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="541-3.30KHCT-ND" x="30.32" y="32.68" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/vishay-dale/CRCW06033K30FKEA/541-3.30KHCT-ND/1179866?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="30.32" y="32.68" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Vishay Dale" x="30.32" y="32.68" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="CRCW06033K30FKEA" x="30.32" y="32.68" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGE" value="0603 Vishay" x="30.32" y="32.68" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R1" library="CRCW06033K30FKEA" package="RESC1608X55" value="CRCW06033K30FKEA" x="43.98" y="30.82">
+<attribute name="DESCRIPTION" value=" Res Thick Film 0603 3.3K Ohm 1% 0.1W_1/10W_ ?100ppm/C SMD Automotive Paper T/R " x="43.98" y="30.82" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="541-3.30KHCT-ND" x="43.98" y="30.82" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/vishay-dale/CRCW06033K30FKEA/541-3.30KHCT-ND/1179866?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="43.98" y="30.82" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Vishay Dale" x="43.98" y="30.82" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="CRCW06033K30FKEA" x="43.98" y="30.82" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="0603 Vishay" x="43.98" y="30.82" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U1" library="TLV1117-18IDCYG3" package="SOT230P700X180-4N" value="TLV1117-18IDCYG3" x="47.5" y="32.7">
-<attribute name="AVAILABILITY" value="Unavailable" x="47.5" y="32.7" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Single Output LDO, 800mA, Fixed and Adj., Internal Current limit, Thermal Overload Protection 4-SOT-223 -40 to 125 " x="47.5" y="32.7" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Texas Instruments" x="47.5" y="32.7" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TLV1117-18IDCYG3" x="47.5" y="32.7" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="SOT-223 Texas Instruments" x="47.5" y="32.7" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="47.5" y="32.7" size="1.778" layer="27" display="off"/>
+<element name="U1" library="TLV1117-18IDCYG3" package="SOT230P700X180-4N" value="TLV1117-18IDCYG3" x="28.8" y="31" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="28.8" y="31" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" Single Output LDO, 800mA, Fixed and Adj., Internal Current limit, Thermal Overload Protection 4-SOT-223 -40 to 125 " x="28.8" y="31" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="28.8" y="31" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="TLV1117-18IDCYG3" x="28.8" y="31" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="SOT-223 Texas Instruments" x="28.8" y="31" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="28.8" y="31" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$1" library="Schottky_0603" package="SMA-DIODE" value="B220A-13-F" x="22.3" y="20.9" rot="R90">
 <attribute name="DESCRIPTION" value=" B220A Series 20 V 2 A Surface Mount Schottky Barrier Rectifier - SMA " x="22.3" y="20.9" size="1.778" layer="27" rot="R90" display="off"/>
@@ -409,14 +409,6 @@ design rules under a new name.</description>
 <attribute name="MP" value="B220A-13-F" x="22.3" y="20.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="DO-214 Diodes Inc." x="22.3" y="20.9" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U$2" library="Schottky_0603" package="SMA-DIODE" value="B220A-13-F" x="36.3" y="21.1" rot="R270">
-<attribute name="DESCRIPTION" value=" B220A Series 20 V 2 A Surface Mount Schottky Barrier Rectifier - SMA " x="36.3" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="B220A-FDICT-ND" x="36.3" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.co.uk/product-detail/en/diodes-incorporated/B220A-13-F/B220A-FDICT-ND/751528?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="36.3" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="36.3" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="B220A-13-F" x="36.3" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PACKAGE" value="DO-214 Diodes Inc." x="36.3" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
 <element name="C1" library="Capacitor_2.2uF_0603" package="CAPC1608X90" value="06036D225KAT2A" x="29.2" y="15.2">
 <attribute name="DESCRIPTION" value=" 0603 2.2 uF 6.3 V ±10 % Tolerance X5R Surface Mount Multilayer Ceramic Capacitor " x="29.2" y="15.2" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-1252-1-ND" x="29.2" y="15.2" size="1.778" layer="27" display="off"/>
@@ -425,56 +417,24 @@ design rules under a new name.</description>
 <attribute name="MP" value="06036D225KAT2A" x="29.2" y="15.2" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="0603 AVX" x="29.2" y="15.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C2" library="Capacitor_2.2uF_0603" package="CAPC1608X90" value="06036D225KAT2A" x="29" y="26.8">
-<attribute name="DESCRIPTION" value=" 0603 2.2 uF 6.3 V ±10 % Tolerance X5R Surface Mount Multilayer Ceramic Capacitor " x="29" y="26.8" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="478-1252-1-ND" x="29" y="26.8" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.co.uk/product-detail/en/avx-corporation/06036D225KAT2A/478-1252-1-ND/564284?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="29" y="26.8" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="AVX" x="29" y="26.8" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="06036D225KAT2A" x="29" y="26.8" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="0603 AVX" x="29" y="26.8" size="1.778" layer="27" display="off"/>
-</element>
-<element name="U$3" library="LEDM1608X80" package="LEDM1608X80" value="LED" x="10.6" y="30.4" rot="R90"/>
+<element name="U$3" library="LEDM1608X80" package="LEDM1608X80" value="LED" x="74.8" y="30" rot="R90"/>
 </elements>
 <signals>
 <signal name="N$4">
 <contactref element="U1" pad="3"/>
 <contactref element="U$1" pad="2"/>
-<contactref element="C2" pad="1"/>
-<wire x1="22.285090625" y1="22.908440625" x2="26.17665" y2="26.8" width="0.4064" layer="1"/>
-<wire x1="26.17665" y1="26.8" x2="28.15" y2="26.8" width="0.4064" layer="1"/>
-<wire x1="26.17665" y1="30.3886" x2="26.17665" y2="26.8" width="0.4064" layer="1"/>
-<wire x1="44.2996" y1="30.3886" x2="26.17665" y2="30.3886" width="0.4064" layer="1"/>
+<wire x1="22.285090625" y1="22.908440625" x2="22.285090625" y2="34.585090625" width="0.4064" layer="1"/>
+<wire x1="22.285090625" y1="34.585090625" x2="24.8" y2="37.1" width="0.4064" layer="1"/>
+<wire x1="24.8" y1="37.1" x2="33" y2="37.1" width="0.4064" layer="1"/>
+<wire x1="33" y1="37.1" x2="34.1" y2="36" width="0.4064" layer="1"/>
+<wire x1="34.1" y1="34.1" x2="34.1" y2="36" width="0.4064" layer="1"/>
+<wire x1="32.0004" y1="33.3114" x2="33.3114" y2="33.3114" width="0.4064" layer="1"/>
+<wire x1="33.3114" y1="33.3114" x2="34.1" y2="34.1" width="0.4064" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="1"/>
-<contactref element="U$2" pad="1"/>
-<contactref element="C2" pad="2"/>
-<contactref element="U$3" pad="C"/>
-<wire x1="17.2886" y1="35.0114" x2="44.2996" y2="35.0114" width="0.4064" layer="1"/>
-<wire x1="10.6" y1="29.65" x2="10.6" y2="27.8" width="0.4064" layer="1"/>
-<wire x1="29.85" y1="26.8" x2="36.314909375" y2="26.8" width="0.4064" layer="1"/>
-<wire x1="36.314909375" y1="26.8" x2="36.314909375" y2="23.2" width="0.4064" layer="1"/>
-<wire x1="36.314909375" y1="23.2" x2="36.314909375" y2="23.09155" width="0.4064" layer="1"/>
-<wire x1="44.2996" y1="35.0114" x2="44.2996" y2="43.3" width="0.4064" layer="1"/>
-<wire x1="44.2996" y1="43.3" x2="55.7" y2="43.3" width="0.4064" layer="1"/>
-<wire x1="55.7" y1="43.3" x2="55.7" y2="23.2" width="0.4064" layer="1"/>
-<wire x1="55.7" y1="23.2" x2="36.314909375" y2="23.2" width="0.4064" layer="1"/>
-<wire x1="10.6" y1="27.8" x2="4.3" y2="27.8" width="0.4064" layer="1"/>
-<wire x1="17.2886" y1="41.2" x2="17.2886" y2="35.0114" width="0.4064" layer="1"/>
-<wire x1="4.3" y1="27.8" x2="4.3" y2="41.2" width="0.4064" layer="1"/>
-<wire x1="4.3" y1="41.2" x2="17.2886" y2="41.2" width="0.4064" layer="1"/>
-</signal>
-<signal name="N$1">
-<contactref element="U1" pad="2"/>
-<contactref element="R1" pad="1"/>
-<wire x1="31.17" y1="32.68" x2="44.2796" y2="32.68" width="0.4064" layer="1"/>
-<wire x1="44.2796" y1="32.68" x2="44.2996" y2="32.7" width="0.4064" layer="1"/>
-</signal>
-<signal name="IN-">
-<contactref element="U$2" pad="2"/>
 <contactref element="C1" pad="2"/>
-<wire x1="36.314909375" y1="19.091559375" x2="32.42335" y2="15.2" width="0.4064" layer="1"/>
-<wire x1="32.42335" y1="15.2" x2="30.05" y2="15.2" width="0.4064" layer="1"/>
+<wire x1="34.2" y1="15.2" x2="30.05" y2="15.2" width="0.4064" layer="1"/>
 <wire x1="35.5" y1="10.4" x2="35.5" y2="4.2" width="2.54" layer="1"/>
 <wire x1="35.5" y1="4.2" x2="50.5" y2="4.2" width="2.54" layer="1"/>
 <wire x1="50.5" y1="4.2" x2="50.5" y2="10.5" width="2.54" layer="1"/>
@@ -488,15 +448,27 @@ design rules under a new name.</description>
 <wire x1="37.2" y1="7.9" x2="47" y2="7.9" width="2.54" layer="1"/>
 <wire x1="38.4" y1="9" x2="47.2" y2="9" width="2.54" layer="1"/>
 <wire x1="38.4" y1="10.5" x2="38.4" y2="9" width="2.54" layer="1"/>
-<wire x1="32.42335" y1="15.2" x2="35.5" y2="12.12335" width="0.508" layer="1"/>
-<wire x1="35.5" y1="12.12335" x2="35.5" y2="10.5" width="0.508" layer="1"/>
+<wire x1="35.5" y1="10.5" x2="35.5" y2="12.12335" width="0.508" layer="1"/>
+<wire x1="36.314909375" y1="17.314909375" x2="34.2" y2="15.2" width="0.4064" layer="1"/>
+<wire x1="35.5" y1="12.12335" x2="35.5" y2="13.9" width="0.4064" layer="1"/>
+<wire x1="35.5" y1="13.9" x2="34.2" y2="15.2" width="0.4064" layer="1"/>
+<contactref element="U$3" pad="C"/>
+<wire x1="32.0004" y1="28.6886" x2="34.3114" y2="28.6886" width="0.4064" layer="1"/>
+<wire x1="36.314909375" y1="26.685090625" x2="36.314909375" y2="26.3" width="0.4064" layer="1"/>
+<wire x1="36.314909375" y1="26.3" x2="36.314909375" y2="17.314909375" width="0.4064" layer="1"/>
+<wire x1="34.3114" y1="28.6886" x2="36.314909375" y2="26.685090625" width="0.4064" layer="1"/>
+<wire x1="74.8" y1="29.25" x2="39.264909375" y2="29.25" width="0.4064" layer="1"/>
+<wire x1="39.264909375" y1="29.25" x2="36.314909375" y2="26.3" width="0.4064" layer="1"/>
+</signal>
+<signal name="N$1">
+<contactref element="U1" pad="2"/>
+<contactref element="R1" pad="1"/>
+<wire x1="32.0004" y1="31" x2="42.95" y2="31" width="0.4064" layer="1"/>
+<wire x1="42.95" y1="31" x2="43.13" y2="30.82" width="0.4064" layer="1"/>
 </signal>
 <signal name="IN+">
 <contactref element="U$1" pad="1"/>
 <contactref element="C1" pad="1"/>
-<wire x1="22.285090625" y1="18.90845" x2="25.946771875" y2="15.24676875" width="0.4064" layer="1"/>
-<wire x1="25.946771875" y1="15.24676875" x2="25.993540625" y2="15.2" width="0.4064" layer="1"/>
-<wire x1="25.993540625" y1="15.2" x2="28.35" y2="15.2" width="0.4064" layer="1"/>
 <wire x1="9.9" y1="10.6" x2="9.9" y2="4.4" width="2.54" layer="1"/>
 <wire x1="9.9" y1="4.4" x2="24.9" y2="4.4" width="2.54" layer="1"/>
 <wire x1="24.9" y1="4.4" x2="24.9" y2="10.7" width="2.54" layer="1"/>
@@ -508,14 +480,18 @@ design rules under a new name.</description>
 <wire x1="11.6" y1="8.1" x2="21.4" y2="8.1" width="2.54" layer="1"/>
 <wire x1="11.6" y1="9.3" x2="21.8" y2="9.3" width="2.54" layer="1"/>
 <wire x1="11.6" y1="8.1" x2="11.6" y2="9.3" width="2.54" layer="1"/>
-<wire x1="25.946771875" y1="15.24676875" x2="22.7" y2="11.999996875" width="0.508" layer="1"/>
-<wire x1="22.7" y1="11.999996875" x2="22.7" y2="10.7" width="0.508" layer="1"/>
+<wire x1="22.7" y1="10.7" x2="22.7" y2="11.999996875" width="0.508" layer="1"/>
+<wire x1="22.285090625" y1="17.214909375" x2="22.285090625" y2="18.90845" width="0.4064" layer="1"/>
+<wire x1="28.35" y1="15.2" x2="24.3" y2="15.2" width="0.4064" layer="1"/>
+<wire x1="24.3" y1="15.2" x2="22.285090625" y2="17.214909375" width="0.4064" layer="1"/>
+<wire x1="22.7" y1="11.999996875" x2="22.7" y2="13.6" width="0.4064" layer="1"/>
+<wire x1="22.7" y1="13.6" x2="24.3" y2="15.2" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U$3" pad="A"/>
 <contactref element="R1" pad="2"/>
-<wire x1="10.6" y1="32.68" x2="10.6" y2="31.15" width="0.4064" layer="1"/>
-<wire x1="29.47" y1="32.68" x2="10.6" y2="32.68" width="0.4064" layer="1"/>
+<wire x1="44.83" y1="30.82" x2="74.73" y2="30.82" width="0.4064" layer="1"/>
+<wire x1="74.73" y1="30.82" x2="74.8" y2="30.75" width="0.4064" layer="1"/>
 </signal>
 </signals>
 </board>
