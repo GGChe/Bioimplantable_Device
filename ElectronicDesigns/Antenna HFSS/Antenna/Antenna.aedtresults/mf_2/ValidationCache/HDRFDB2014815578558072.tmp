@@ -1,2 +1,17 @@
 $begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='a=\'8mm\' fi=\'31.4159265358979\' r0=\'25mm\' r1=\'24mm\''
+		Status=true
+		FileName='VI6FB411652155800380222.tmp'
+	$end 'OneValidationResult'
+	$begin 'OneValidationResult'
+		Variation='a=\'8mm\' fi=\'31.4159265358979\' r0=\'30mm\' r1=\'29.5mm\''
+		Status=true
+		FileName='VI59A611652155800207313.tmp'
+	$end 'OneValidationResult'
+	$begin 'OneValidationResult'
+		Variation='a=\'8mm\' fi=\'31.4159265358979\' r0=\'30mm\' r1=\'29mm\''
+		Status=true
+		FileName='VI432D8256155794010514.tmp'
+	$end 'OneValidationResult'
 $end 'ValidationCache'
