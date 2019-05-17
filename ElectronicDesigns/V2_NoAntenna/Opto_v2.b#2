@@ -117,6 +117,9 @@
 <text x="61.535" y="46.915" size="0.6096" layer="1" rot="R90">Tunning capacitor</text>
 <text x="56.235" y="44.78" size="0.6096" layer="1" rot="R90">In</text>
 <text x="55.61" y="55.89" size="0.6096" layer="1" rot="R90">out</text>
+<text x="42.675" y="43.145" size="0.6096" layer="1" rot="R90">Drill</text>
+<text x="50.15" y="39.075" size="0.6096" layer="1" rot="R90">Drill</text>
+<text x="86.065" y="50.47" size="1.6764" layer="1" rot="R180">LED</text>
 </plain>
 <libraries>
 <library name="CRCW06033K30FKEA">
