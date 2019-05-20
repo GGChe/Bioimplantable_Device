@@ -1,0 +1,9 @@
+$begin 'CacheDataVersion'
+	DataVersion=-1
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	fi='10*pi'
+	a='8mm'
+	r0='5mm'
+	r1='4.8mm'
+$end 'VariableValues'
