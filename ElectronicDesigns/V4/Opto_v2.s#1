@@ -520,6 +520,231 @@ Creation Date: 2015-01-06,
 </deviceset>
 </devicesets>
 </library>
+<library name="GCM1885C1H270JA16D">
+<packages>
+<package name="CAPC1608X9N">
+<text x="-1.36408125" y="0.8933625" size="0.61053125" layer="25">&gt;NAME</text>
+<text x="-1.398209375" y="-1.52531875" size="0.610128125" layer="27">&gt;VALUE</text>
+<wire x1="-0.85" y1="-0.45" x2="-0.85" y2="0.45" width="0.127" layer="51"/>
+<wire x1="-0.85" y1="0.45" x2="0.85" y2="0.45" width="0.127" layer="51"/>
+<wire x1="0.85" y1="0.45" x2="0.85" y2="-0.45" width="0.127" layer="51"/>
+<wire x1="0.85" y1="-0.45" x2="-0.85" y2="-0.45" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="0.645" x2="0.8" y2="0.645" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-0.645" x2="0.8" y2="-0.645" width="0.127" layer="21"/>
+<wire x1="-1.47" y1="0.72" x2="1.47" y2="0.72" width="0.05" layer="39"/>
+<wire x1="1.47" y1="0.72" x2="1.47" y2="-0.72" width="0.05" layer="39"/>
+<wire x1="1.47" y1="-0.72" x2="-1.47" y2="-0.72" width="0.05" layer="39"/>
+<wire x1="-1.47" y1="-0.72" x2="-1.47" y2="0.72" width="0.05" layer="39"/>
+<smd name="1" x="-0.75" y="0" dx="0.93" dy="0.93" layer="1" roundness="50"/>
+<smd name="2" x="0.75" y="0" dx="0.93" dy="0.93" layer="1" roundness="50"/>
+</package>
+</packages>
+<symbols>
+<symbol name="GCM1885C1H270JA16D">
+<text x="0" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="0" y1="-1.905" x2="0.635" y2="1.905" layer="94"/>
+<rectangle x1="1.905" y1="-1.905" x2="2.54" y2="1.905" layer="94"/>
+<pin name="1" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GCM1885C1H270JA16D" prefix="C">
+<description>Cap Ceramic 27pF 50V C0G 5% SMD 0603 125°C Paper T/R</description>
+<gates>
+<gate name="G$1" symbol="GCM1885C1H270JA16D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC1608X9N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 0603 27 pF 50 V ±5 % Tolerance C0G SMT Multilayer Ceramic Capacitor "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-6047-1-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM1885C1H270JA16D/490-6047-1-ND/3845247?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MP" value="GCM1885C1H270JA16D"/>
+<attribute name="PACKAGE" value="0603 Murata"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="CC0603JRNPO9BN180">
+<packages>
+<package name="0603">
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<text x="-0.63593125" y="0.63593125" size="1.271859375" layer="25">&gt;NAME</text>
+<text x="-0.63556875" y="-1.906709375" size="1.271140625" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.83831875" y1="-0.469965625" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.330446875" y1="-0.470253125" x2="0.8303" y2="0.4801" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CC0603JRNPO9BN180">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.8782"/>
+<wire x1="-2.4668" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.373"/>
+<text x="1.01685" y="0.63553125" size="1.779490625" layer="95">&gt;NAME</text>
+<text x="1.016940625" y="-4.1949" size="1.77965" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CC0603JRNPO9BN180" prefix="C">
+<description>http://octopart.com/cc0603jrnpo9bn180-yageo+%2F+phycomp-13152379</description>
+<gates>
+<gate name="G$1" symbol="CC0603JRNPO9BN180" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 0603 18 pF 50 V ±5 % Tolerance NP0 SMT Multilayer Ceramic Capacitor "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-1061-1-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/yageo/CC0603JRNPO9BN180/311-1061-1-ND/302971?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Yageo"/>
+<attribute name="MP" value="CC0603JRNPO9BN180"/>
+<attribute name="PACKAGE" value="0603 Yageo"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="CRCW04020000Z0EDHP">
+<packages>
+<package name="RESC1005X40">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.173" y1="0.633" x2="1.173" y2="0.633" width="0.0508" layer="39"/>
+<wire x1="1.173" y1="0.633" x2="1.173" y2="-0.633" width="0.0508" layer="39"/>
+<wire x1="1.173" y1="-0.633" x2="-1.173" y2="-0.633" width="0.0508" layer="39"/>
+<wire x1="-1.173" y1="-0.633" x2="-1.173" y2="0.633" width="0.0508" layer="39"/>
+<text x="-1.23791875" y="0.68661875" size="0.40094375" layer="25">&gt;NAME</text>
+<text x="-1.23653125" y="-1.106359375" size="0.40049375" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.55494375" y1="-0.30531875" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.259240625" y1="-0.305321875" x2="0.5588" y2="0.2951" layer="51"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CRCW04020000Z0EDHP">
+<text x="-4.4556" y="2.01138125" size="1.782240625" layer="95">&gt;NAME</text>
+<text x="-4.453009375" y="-3.562409375" size="1.781209375" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="5.08" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CRCW04020000Z0EDHP" prefix="R">
+<description>CRCW Series 0402 0.063 W 0 Ohm Jumper Surface Mount Thick Film Chip Resistor</description>
+<gates>
+<gate name="G$1" symbol="CRCW04020000Z0EDHP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" CRCW Series 0402 0.125 W 0 O Jumper Surface Mount Thick Film Chip Resistor "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="541-0.0YBCT-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/vishay-dale/CRCW04020000Z0EDHP/541-0.0YBCT-ND/2223008?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Vishay"/>
+<attribute name="MP" value="CRCW04020000Z0EDHP"/>
+<attribute name="PACKAGE" value="0402 Vishay"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="04025A220JAT2A">
+<packages>
+<package name="CAPC1005X56N">
+<text x="-1.085" y="0.735" size="0.5" layer="25">&gt;NAME</text>
+<text x="-1.085" y="-1.255" size="0.5" layer="27">&gt;VALUE</text>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.127" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.127" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="51"/>
+<rectangle x1="0.25" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
+<wire x1="-1" y1="0.55" x2="1" y2="0.55" width="0.05" layer="39"/>
+<wire x1="1" y1="0.55" x2="1" y2="-0.55" width="0.05" layer="39"/>
+<wire x1="1" y1="-0.55" x2="-1" y2="-0.55" width="0.05" layer="39"/>
+<wire x1="-1" y1="-0.55" x2="-1" y2="0.55" width="0.05" layer="39"/>
+<smd name="1" x="-0.43" y="0" dx="0.54" dy="0.6" layer="1"/>
+<smd name="2" x="0.43" y="0" dx="0.54" dy="0.6" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="04025A220JAT2A">
+<text x="0" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="0" y1="-1.905" x2="0.635" y2="1.905" layer="94"/>
+<rectangle x1="1.905" y1="-1.905" x2="2.54" y2="1.905" layer="94"/>
+<pin name="1" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="04025A220JAT2A" prefix="C">
+<description>CAPACITOR CERAMIC 22PF 50V, C0G, 5%, 040</description>
+<gates>
+<gate name="G$1" symbol="04025A220JAT2A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC1005X56N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 0402 22 pF 50 V ±5 % Tolerance C0G/NP0 SMT Multilayer Ceramic Capacitor "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-1074-1-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/avx-corporation/04025A220JAT2A/478-1074-1-ND/564106?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="AVX"/>
+<attribute name="MP" value="04025A220JAT2A"/>
+<attribute name="PACKAGE" value="0402 AVX Interconnect / Elco"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -536,6 +761,15 @@ Creation Date: 2015-01-06,
 <part name="U$1" library="Schottky_0603" deviceset="B220A-13-F" device=""/>
 <part name="C1" library="Capacitor_2.2uF_0603" deviceset="06036D225KAT2A" device=""/>
 <part name="D1" library="WL-SWTP" deviceset="WL-SWTP" device="3014"/>
+<part name="C4" library="GCM1885C1H270JA16D" deviceset="GCM1885C1H270JA16D" device=""/>
+<part name="C5" library="GCM1885C1H270JA16D" deviceset="GCM1885C1H270JA16D" device=""/>
+<part name="C6" library="CC0603JRNPO9BN180" deviceset="CC0603JRNPO9BN180" device=""/>
+<part name="C7" library="CC0603JRNPO9BN180" deviceset="CC0603JRNPO9BN180" device=""/>
+<part name="R2" library="CRCW04020000Z0EDHP" deviceset="CRCW04020000Z0EDHP" device=""/>
+<part name="R3" library="CRCW04020000Z0EDHP" deviceset="CRCW04020000Z0EDHP" device=""/>
+<part name="C2" library="04025A220JAT2A" deviceset="04025A220JAT2A" device=""/>
+<part name="C3" library="04025A220JAT2A" deviceset="04025A220JAT2A" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -548,17 +782,19 @@ Creation Date: 2015-01-06,
 <instance part="U$1" gate="A" x="10.16" y="71.12"/>
 <instance part="C1" gate="G$1" x="25.4" y="55.88" rot="R90"/>
 <instance part="D1" gate="G$1" x="137.16" y="63.5" rot="R180"/>
+<instance part="C4" gate="G$1" x="-35.56" y="27.94" rot="R90"/>
+<instance part="C5" gate="G$1" x="-17.78" y="30.48" rot="R90"/>
+<instance part="C6" gate="G$1" x="-78.74" y="71.12" rot="R90"/>
+<instance part="C7" gate="G$1" x="-78.74" y="43.18" rot="R90"/>
+<instance part="R2" gate="G$1" x="-5.08" y="71.12"/>
+<instance part="R3" gate="G$1" x="-5.08" y="43.18"/>
+<instance part="C2" gate="G$1" x="-68.58" y="27.94" rot="R90"/>
+<instance part="C3" gate="G$1" x="-50.8" y="27.94" rot="R90"/>
+<instance part="GND2" gate="1" x="-43.18" y="7.62"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="IN+" class="0">
-<segment>
-<label x="-35.56" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="A" pin="A"/>
-<wire x1="7.62" y1="71.12" x2="-35.56" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="INPUT"/>
@@ -583,8 +819,6 @@ Creation Date: 2015-01-06,
 <pinref part="U1" gate="A" pin="ADJ/GND"/>
 <wire x1="48.26" y1="58.42" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<label x="-35.56" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="25.4" y1="43.18" x2="-35.56" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="63.5" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
 <junction x="48.26" y="43.18"/>
@@ -592,9 +826,35 @@ Creation Date: 2015-01-06,
 <wire x1="48.26" y1="38.1" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="53.34" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<junction x="25.4" y="43.18"/>
 <pinref part="D1" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="2.54" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<junction x="25.4" y="43.18"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="-68.58" y1="25.4" x2="-68.58" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="15.24" x2="-50.8" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="-50.8" y1="15.24" x2="-50.8" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="-50.8" y1="15.24" x2="-43.18" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="15.24" x2="-35.56" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="15.24" x2="-35.56" y2="25.4" width="0.1524" layer="91"/>
+<junction x="-50.8" y="15.24"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="-17.78" y1="27.94" x2="-17.78" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="15.24" x2="-35.56" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-35.56" y="15.24"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="-43.18" y1="10.16" x2="-43.18" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-43.18" y="15.24"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="-81.28" y1="43.18" x2="-88.9" y2="43.18" width="0.1524" layer="91"/>
+<label x="-88.9" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -602,6 +862,49 @@ Creation Date: 2015-01-06,
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="-68.58" y1="33.02" x2="-68.58" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="43.18" x2="-73.66" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="33.02" x2="-35.56" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="43.18" x2="-68.58" y2="43.18" width="0.1524" layer="91"/>
+<junction x="-68.58" y="43.18"/>
+<wire x1="-15.24" y1="43.18" x2="-35.56" y2="43.18" width="0.1524" layer="91"/>
+<junction x="-35.56" y="43.18"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="-50.8" y1="33.02" x2="-50.8" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="71.12" x2="-73.66" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="-17.78" y1="35.56" x2="-17.78" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="71.12" x2="-50.8" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-50.8" y="71.12"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="-17.78" y1="71.12" x2="-12.7" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-17.78" y="71.12"/>
+</segment>
+</net>
+<net name="IN+" class="0">
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="-81.28" y1="71.12" x2="-88.9" y2="71.12" width="0.1524" layer="91"/>
+<label x="-88.9" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U$1" gate="A" pin="A"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="71.12" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
