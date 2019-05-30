@@ -529,7 +529,7 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="1206 Würth Elektronik" x="105.595" y="24.03" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$3" library="NCP160AMX180TBG" package="REG_NCP160AMX180TBG" value="NCP161_711AJ" x="82.33" y="23.155" rot="R180"/>
-<element name="U$2" library="Schottki_0402" package="0402_MURATA" value="SCHOTTKY0402" x="75" y="21"/>
+<element name="U$2" library="Schottki_0402" package="0402_MURATA" value="SCHOTTKY0402" x="75" y="22"/>
 </elements>
 <signals>
 <signal name="IN">
@@ -541,7 +541,9 @@ design rules under a new name.</description>
 <wire x1="82.53" y1="22.025" x2="82.005" y2="22.025" width="0.254" layer="1"/>
 <wire x1="82.655" y1="22.15" x2="82.53" y2="22.025" width="0.254" layer="1"/>
 <contactref element="C1" pad="1"/>
-<wire x1="69.955" y1="22.9" x2="80.044909375" y2="20.064909375" width="0" layer="19" extent="1-1"/>
+<contactref element="U$2" pad="P$2"/>
+<wire x1="75.4" y1="22" x2="80.044909375" y2="20.064909375" width="0" layer="19" extent="1-1"/>
+<wire x1="69.955" y1="22.9" x2="75.4" y2="22" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="2"/>
