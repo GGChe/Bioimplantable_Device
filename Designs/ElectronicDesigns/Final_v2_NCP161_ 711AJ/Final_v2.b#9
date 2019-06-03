@@ -199,36 +199,110 @@ Size 3014, PLCC2</description>
 </package>
 </packages>
 </library>
-<library name="NCV8161_LDO">
+<library name="NCP160AMX180TBG">
 <packages>
-<package name="SOP95P275X110-5N">
-<text x="-2.024159375" y="2.12555" size="1.01773125" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-1.99985" y="-3.027959375" size="1.017859375" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-<wire x1="-0.75" y1="-1.5" x2="-0.75" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-0.75" y1="1.5" x2="0.75" y2="1.5" width="0.127" layer="51"/>
-<wire x1="0.75" y1="1.5" x2="0.75" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="0.75" y1="-1.5" x2="-0.75" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-0.75" y1="1.5" x2="0.75" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-0.75" y1="-1.5" x2="0.75" y2="-1.5" width="0.127" layer="21"/>
-<circle x="-2.365" y="0.95" radius="0.1" width="0.2" layer="21"/>
-<wire x1="-2.11" y1="1.49" x2="-2.11" y2="-1.49" width="0.05" layer="39"/>
-<wire x1="-2.11" y1="-1.49" x2="-1" y2="-1.49" width="0.05" layer="39"/>
-<wire x1="-1" y1="-1.49" x2="-1" y2="-1.75" width="0.05" layer="39"/>
-<wire x1="-1" y1="-1.75" x2="1" y2="-1.75" width="0.05" layer="39"/>
-<wire x1="1" y1="-1.75" x2="1" y2="-1.49" width="0.05" layer="39"/>
-<wire x1="1" y1="-1.49" x2="2.11" y2="-1.49" width="0.05" layer="39"/>
-<wire x1="2.11" y1="-1.49" x2="2.11" y2="1.49" width="0.05" layer="39"/>
-<wire x1="2.11" y1="1.49" x2="1" y2="1.49" width="0.05" layer="39"/>
-<wire x1="1" y1="1.49" x2="1" y2="1.75" width="0.05" layer="39"/>
-<wire x1="1" y1="1.75" x2="-1" y2="1.75" width="0.05" layer="39"/>
-<wire x1="-1" y1="1.75" x2="-1" y2="1.49" width="0.05" layer="39"/>
-<wire x1="-1" y1="1.49" x2="-2.11" y2="1.49" width="0.05" layer="39"/>
-<circle x="-0.319" y="1.093" radius="0.1" width="0.2" layer="51"/>
-<smd name="1" x="-1.145" y="0.95" dx="1.42" dy="0.58" layer="1"/>
-<smd name="2" x="-1.145" y="0" dx="1.42" dy="0.58" layer="1"/>
-<smd name="3" x="-1.145" y="-0.95" dx="1.42" dy="0.58" layer="1"/>
-<smd name="4" x="1.145" y="-0.95" dx="1.42" dy="0.58" layer="1"/>
-<smd name="5" x="1.145" y="0.95" dx="1.42" dy="0.58" layer="1"/>
+<package name="REG_NCP160AMX180TBG">
+<polygon width="0.001" layer="1">
+<vertex x="-0.195" y="-0.6"/>
+<vertex x="-0.455" y="-0.6"/>
+<vertex x="-0.455" y="-0.21"/>
+<vertex x="-0.345" y="-0.21"/>
+<vertex x="-0.195" y="-0.365"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="0.195" y="0.6"/>
+<vertex x="0.455" y="0.6"/>
+<vertex x="0.455" y="0.21"/>
+<vertex x="0.345" y="0.21"/>
+<vertex x="0.195" y="0.365"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="0.195" y="-0.6"/>
+<vertex x="0.455" y="-0.6"/>
+<vertex x="0.455" y="-0.21"/>
+<vertex x="0.345" y="-0.21"/>
+<vertex x="0.195" y="-0.365"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="-0.195" y="0.6"/>
+<vertex x="-0.455" y="0.6"/>
+<vertex x="-0.455" y="0.21"/>
+<vertex x="-0.345" y="0.21"/>
+<vertex x="-0.195" y="0.365"/>
+</polygon>
+<polygon width="0.001" layer="29">
+<vertex x="-0.525" y="0.15"/>
+<vertex x="-0.525" y="0.65"/>
+<vertex x="-0.125" y="0.65"/>
+<vertex x="-0.125" y="0.3875"/>
+<vertex x="-0.35" y="0.15"/>
+</polygon>
+<polygon width="0.001" layer="29">
+<vertex x="0.525" y="-0.15"/>
+<vertex x="0.525" y="-0.65"/>
+<vertex x="0.125" y="-0.65"/>
+<vertex x="0.125" y="-0.3875"/>
+<vertex x="0.35" y="-0.15"/>
+</polygon>
+<polygon width="0.001" layer="29">
+<vertex x="0.525" y="0.15"/>
+<vertex x="0.525" y="0.65"/>
+<vertex x="0.125" y="0.65"/>
+<vertex x="0.125" y="0.3875"/>
+<vertex x="0.35" y="0.15"/>
+</polygon>
+<polygon width="0.001" layer="29">
+<vertex x="-0.525" y="-0.15"/>
+<vertex x="-0.525" y="-0.65"/>
+<vertex x="-0.125" y="-0.65"/>
+<vertex x="-0.125" y="-0.3875"/>
+<vertex x="-0.35" y="-0.15"/>
+</polygon>
+<rectangle x1="-0.368746875" y1="-0.368746875" x2="0.3" y2="0.3" layer="29" rot="R45"/>
+<wire x1="-0.5" y1="0.5" x2="0.5" y2="0.5" width="0.127" layer="51"/>
+<wire x1="0.5" y1="0.5" x2="0.5" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="0.5" y1="-0.5" x2="-0.5" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="-0.5" x2="-0.5" y2="0.5" width="0.127" layer="51"/>
+<circle x="-0.6" y="-0.6" radius="0.025" width="0.05" layer="21"/>
+<wire x1="-0.75" y1="0.75" x2="0.75" y2="0.75" width="0.05" layer="39"/>
+<wire x1="0.75" y1="0.75" x2="0.75" y2="-0.75" width="0.05" layer="39"/>
+<wire x1="0.75" y1="-0.75" x2="-0.75" y2="-0.75" width="0.05" layer="39"/>
+<wire x1="-0.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.05" layer="39"/>
+<text x="-0.840328125" y="0.960375" size="0.36590625" layer="25">&gt;NAME</text>
+<text x="-0.852703125" y="-1.33995" size="0.371290625" layer="27">&gt;VALUE</text>
+<polygon width="0.001" layer="31">
+<vertex x="-0.195" y="0.6"/>
+<vertex x="-0.455" y="0.6"/>
+<vertex x="-0.455" y="0.21"/>
+<vertex x="-0.345" y="0.21"/>
+<vertex x="-0.195" y="0.365"/>
+</polygon>
+<polygon width="0.001" layer="31">
+<vertex x="0.195" y="0.6"/>
+<vertex x="0.455" y="0.6"/>
+<vertex x="0.455" y="0.21"/>
+<vertex x="0.345" y="0.21"/>
+<vertex x="0.195" y="0.365"/>
+</polygon>
+<polygon width="0.001" layer="31">
+<vertex x="-0.195" y="-0.6"/>
+<vertex x="-0.455" y="-0.6"/>
+<vertex x="-0.455" y="-0.21"/>
+<vertex x="-0.345" y="-0.21"/>
+<vertex x="-0.195" y="-0.365"/>
+</polygon>
+<polygon width="0.001" layer="31">
+<vertex x="0.195" y="-0.6"/>
+<vertex x="0.455" y="-0.6"/>
+<vertex x="0.455" y="-0.21"/>
+<vertex x="0.345" y="-0.21"/>
+<vertex x="0.195" y="-0.365"/>
+</polygon>
+<smd name="5" x="0" y="0" dx="0.52" dy="0.52" layer="1" rot="R45" stop="no"/>
+<smd name="4" x="-0.325" y="0.4" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.325" y="0.4" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-0.325" y="-0.4" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0.325" y="-0.4" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
 </package>
 </packages>
 </library>
@@ -454,26 +528,20 @@ design rules under a new name.</description>
 <attribute name="MP" value="158301250" x="105.595" y="24.03" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="1206 Würth Elektronik" x="105.595" y="24.03" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$2" library="NCV8161_LDO" package="SOP95P275X110-5N" value="NCV8161" x="79.665" y="23.31"/>
+<element name="U$3" library="NCP160AMX180TBG" package="REG_NCP160AMX180TBG" value="NCP161_711AJ" x="82.33" y="23.155" rot="R180"/>
 </elements>
 <signals>
 <signal name="N$4">
 <contactref element="C1" pad="1"/>
 <wire x1="70.063440625" y1="22.791559375" x2="69.955" y2="22.9" width="0.3048" layer="1"/>
 <contactref element="U$1" pad="2"/>
-<contactref element="U$2" pad="1"/>
-<contactref element="U$2" pad="3"/>
 <wire x1="70.063440625" y1="20.064909375" x2="70.063440625" y2="22.12" width="0.3048" layer="1"/>
 <wire x1="70.063440625" y1="22.12" x2="70.063440625" y2="22.791559375" width="0.3048" layer="1"/>
-<wire x1="78.52" y1="22.36" x2="70.303440625" y2="22.36" width="0.2032" layer="1"/>
 <wire x1="70.303440625" y1="22.36" x2="70.063440625" y2="22.12" width="0.2032" layer="1"/>
-<wire x1="78.52" y1="24.26" x2="79.405" y2="24.26" width="0.2032" layer="1"/>
-<wire x1="79.715" y1="23.95" x2="79.715" y2="22.595" width="0.2032" layer="1"/>
-<wire x1="79.715" y1="22.595" x2="79.48" y2="22.36" width="0.2032" layer="1"/>
-<wire x1="79.48" y1="22.36" x2="78.52" y2="22.36" width="0.2032" layer="1"/>
-<wire x1="79.405" y1="24.26" x2="79.715" y2="23.95" width="0.2032" layer="1"/>
-<wire x1="78.52" y1="24.26" x2="77.22" y2="24.26" width="0.3048" layer="1"/>
-<wire x1="77.22" y1="24.26" x2="77.215" y2="24.265" width="0.3048" layer="1"/>
+<contactref element="U$3" pad="4"/>
+<contactref element="U$3" pad="3"/>
+<wire x1="82.005" y1="22.755" x2="70.063440625" y2="20.064909375" width="0" layer="19" extent="1-1"/>
+<wire x1="82.655" y1="22.755" x2="82.005" y2="22.755" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="2"/>
@@ -481,14 +549,14 @@ design rules under a new name.</description>
 <wire x1="70.0275" y1="24.6725" x2="56.4175" y2="24.6725" width="0.254" layer="1"/>
 <wire x1="56.4175" y1="24.6725" x2="56.385" y2="24.64" width="2.54" layer="1"/>
 <contactref element="D1" pad="1"/>
-<contactref element="U$2" pad="2"/>
 <wire x1="70.32" y1="24.965" x2="70.0275" y2="24.6725" width="0.2032" layer="1"/>
-<wire x1="78.52" y1="23.31" x2="71.975" y2="23.31" width="0.2032" layer="1"/>
 <wire x1="71.975" y1="23.31" x2="70.32" y2="24.965" width="0.2032" layer="1"/>
 <wire x1="106.475" y1="24.03" x2="106.475" y2="25.425" width="0.3048" layer="1"/>
 <wire x1="106.475" y1="25.425" x2="106.335" y2="25.565" width="0.3048" layer="1"/>
 <wire x1="106.335" y1="25.565" x2="70.92" y2="25.565" width="0.3048" layer="1"/>
 <wire x1="70.92" y1="25.565" x2="70.0275" y2="24.6725" width="0.3048" layer="1"/>
+<contactref element="U$3" pad="2"/>
+<wire x1="82.005" y1="23.555" x2="56.385" y2="24.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="2"/>
@@ -505,11 +573,10 @@ design rules under a new name.</description>
 <wire x1="40.945" y1="31.88" x2="40.945" y2="31.135" width="0" layer="19" extent="1-16"/>
 <wire x1="40.945" y1="31.135" x2="40.95" y2="31.135" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="N$1">
+<signal name="N$5">
+<contactref element="U$3" pad="1"/>
 <contactref element="R1" pad="1"/>
-<contactref element="U$2" pad="5"/>
-<wire x1="80.81" y1="24.26" x2="90.05" y2="24.26" width="0.3048" layer="1"/>
-<wire x1="90.05" y1="24.26" x2="90.095" y2="24.215" width="0.3048" layer="1"/>
+<wire x1="82.655" y1="23.555" x2="90.095" y2="24.215" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
