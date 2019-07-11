@@ -663,6 +663,13 @@ Creation Date: 2015-01-06,
 <wire x1="99.06" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="IN+" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="IN"/>
+<wire x1="-7.62" y1="76.2" x2="-15.24" y2="76.2" width="0.1524" layer="91"/>
+<label x="-15.24" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

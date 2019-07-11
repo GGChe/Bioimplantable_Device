@@ -442,64 +442,136 @@ Creation Date: 2015-01-06,
 </deviceset>
 </devicesets>
 </library>
-<library name="NCV8161_LDO">
+<library name="NCP160AMX180TBG">
 <packages>
-<package name="SOP95P275X110-5N">
-<text x="-2.024159375" y="2.12555" size="1.01773125" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-1.99985" y="-3.027959375" size="1.017859375" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-<wire x1="-0.75" y1="-1.5" x2="-0.75" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-0.75" y1="1.5" x2="0.75" y2="1.5" width="0.127" layer="51"/>
-<wire x1="0.75" y1="1.5" x2="0.75" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="0.75" y1="-1.5" x2="-0.75" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-0.75" y1="1.5" x2="0.75" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-0.75" y1="-1.5" x2="0.75" y2="-1.5" width="0.127" layer="21"/>
-<circle x="-2.365" y="0.95" radius="0.1" width="0.2" layer="21"/>
-<wire x1="-2.11" y1="1.49" x2="-2.11" y2="-1.49" width="0.05" layer="39"/>
-<wire x1="-2.11" y1="-1.49" x2="-1" y2="-1.49" width="0.05" layer="39"/>
-<wire x1="-1" y1="-1.49" x2="-1" y2="-1.75" width="0.05" layer="39"/>
-<wire x1="-1" y1="-1.75" x2="1" y2="-1.75" width="0.05" layer="39"/>
-<wire x1="1" y1="-1.75" x2="1" y2="-1.49" width="0.05" layer="39"/>
-<wire x1="1" y1="-1.49" x2="2.11" y2="-1.49" width="0.05" layer="39"/>
-<wire x1="2.11" y1="-1.49" x2="2.11" y2="1.49" width="0.05" layer="39"/>
-<wire x1="2.11" y1="1.49" x2="1" y2="1.49" width="0.05" layer="39"/>
-<wire x1="1" y1="1.49" x2="1" y2="1.75" width="0.05" layer="39"/>
-<wire x1="1" y1="1.75" x2="-1" y2="1.75" width="0.05" layer="39"/>
-<wire x1="-1" y1="1.75" x2="-1" y2="1.49" width="0.05" layer="39"/>
-<wire x1="-1" y1="1.49" x2="-2.11" y2="1.49" width="0.05" layer="39"/>
-<circle x="-0.319" y="1.093" radius="0.1" width="0.2" layer="51"/>
-<smd name="1" x="-1.145" y="0.95" dx="1.42" dy="0.58" layer="1"/>
-<smd name="2" x="-1.145" y="0" dx="1.42" dy="0.58" layer="1"/>
-<smd name="3" x="-1.145" y="-0.95" dx="1.42" dy="0.58" layer="1"/>
-<smd name="4" x="1.145" y="-0.95" dx="1.42" dy="0.58" layer="1"/>
-<smd name="5" x="1.145" y="0.95" dx="1.42" dy="0.58" layer="1"/>
+<package name="REG_NCP160AMX180TBG">
+<polygon width="0.001" layer="1">
+<vertex x="-0.195" y="-0.6"/>
+<vertex x="-0.455" y="-0.6"/>
+<vertex x="-0.455" y="-0.21"/>
+<vertex x="-0.345" y="-0.21"/>
+<vertex x="-0.195" y="-0.365"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="0.195" y="0.6"/>
+<vertex x="0.455" y="0.6"/>
+<vertex x="0.455" y="0.21"/>
+<vertex x="0.345" y="0.21"/>
+<vertex x="0.195" y="0.365"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="0.195" y="-0.6"/>
+<vertex x="0.455" y="-0.6"/>
+<vertex x="0.455" y="-0.21"/>
+<vertex x="0.345" y="-0.21"/>
+<vertex x="0.195" y="-0.365"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="-0.195" y="0.6"/>
+<vertex x="-0.455" y="0.6"/>
+<vertex x="-0.455" y="0.21"/>
+<vertex x="-0.345" y="0.21"/>
+<vertex x="-0.195" y="0.365"/>
+</polygon>
+<polygon width="0.001" layer="29">
+<vertex x="-0.525" y="0.15"/>
+<vertex x="-0.525" y="0.65"/>
+<vertex x="-0.125" y="0.65"/>
+<vertex x="-0.125" y="0.3875"/>
+<vertex x="-0.35" y="0.15"/>
+</polygon>
+<polygon width="0.001" layer="29">
+<vertex x="0.525" y="-0.15"/>
+<vertex x="0.525" y="-0.65"/>
+<vertex x="0.125" y="-0.65"/>
+<vertex x="0.125" y="-0.3875"/>
+<vertex x="0.35" y="-0.15"/>
+</polygon>
+<polygon width="0.001" layer="29">
+<vertex x="0.525" y="0.15"/>
+<vertex x="0.525" y="0.65"/>
+<vertex x="0.125" y="0.65"/>
+<vertex x="0.125" y="0.3875"/>
+<vertex x="0.35" y="0.15"/>
+</polygon>
+<polygon width="0.001" layer="29">
+<vertex x="-0.525" y="-0.15"/>
+<vertex x="-0.525" y="-0.65"/>
+<vertex x="-0.125" y="-0.65"/>
+<vertex x="-0.125" y="-0.3875"/>
+<vertex x="-0.35" y="-0.15"/>
+</polygon>
+<rectangle x1="-0.368746875" y1="-0.368746875" x2="0.3" y2="0.3" layer="29" rot="R45"/>
+<wire x1="-0.5" y1="0.5" x2="0.5" y2="0.5" width="0.127" layer="51"/>
+<wire x1="0.5" y1="0.5" x2="0.5" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="0.5" y1="-0.5" x2="-0.5" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="-0.5" x2="-0.5" y2="0.5" width="0.127" layer="51"/>
+<circle x="-0.6" y="-0.6" radius="0.025" width="0.05" layer="21"/>
+<wire x1="-0.75" y1="0.75" x2="0.75" y2="0.75" width="0.05" layer="39"/>
+<wire x1="0.75" y1="0.75" x2="0.75" y2="-0.75" width="0.05" layer="39"/>
+<wire x1="0.75" y1="-0.75" x2="-0.75" y2="-0.75" width="0.05" layer="39"/>
+<wire x1="-0.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.05" layer="39"/>
+<text x="-0.840328125" y="0.960375" size="0.36590625" layer="25">&gt;NAME</text>
+<text x="-0.852703125" y="-1.33995" size="0.371290625" layer="27">&gt;VALUE</text>
+<polygon width="0.001" layer="31">
+<vertex x="-0.195" y="0.6"/>
+<vertex x="-0.455" y="0.6"/>
+<vertex x="-0.455" y="0.21"/>
+<vertex x="-0.345" y="0.21"/>
+<vertex x="-0.195" y="0.365"/>
+</polygon>
+<polygon width="0.001" layer="31">
+<vertex x="0.195" y="0.6"/>
+<vertex x="0.455" y="0.6"/>
+<vertex x="0.455" y="0.21"/>
+<vertex x="0.345" y="0.21"/>
+<vertex x="0.195" y="0.365"/>
+</polygon>
+<polygon width="0.001" layer="31">
+<vertex x="-0.195" y="-0.6"/>
+<vertex x="-0.455" y="-0.6"/>
+<vertex x="-0.455" y="-0.21"/>
+<vertex x="-0.345" y="-0.21"/>
+<vertex x="-0.195" y="-0.365"/>
+</polygon>
+<polygon width="0.001" layer="31">
+<vertex x="0.195" y="-0.6"/>
+<vertex x="0.455" y="-0.6"/>
+<vertex x="0.455" y="-0.21"/>
+<vertex x="0.345" y="-0.21"/>
+<vertex x="0.195" y="-0.365"/>
+</polygon>
+<smd name="5" x="0" y="0" dx="0.52" dy="0.52" layer="1" rot="R45" stop="no"/>
+<smd name="4" x="-0.325" y="0.4" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.325" y="0.4" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-0.325" y="-0.4" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0.325" y="-0.4" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
 </package>
 </packages>
 <symbols>
-<symbol name="NCV8161">
-<wire x1="-10.16" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="-17.78" x2="-10.16" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="-17.78" x2="-10.16" y2="10.16" width="0.1524" layer="94"/>
-<pin name="IN" x="-15.24" y="5.08" length="middle"/>
-<pin name="GND" x="-15.24" y="-2.54" length="middle"/>
-<pin name="EN" x="-15.24" y="-10.16" length="middle"/>
-<pin name="OUT" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="NC" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<symbol name="NCP161_711AJ">
+<wire x1="-7.62" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="-7.62" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="10.16" width="0.1524" layer="94"/>
+<pin name="OUT" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="EN" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="IN" x="-12.7" y="-2.54" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NCV8161">
+<deviceset name="NCP161_711AJ">
 <gates>
-<gate name="G$1" symbol="NCV8161" x="-2.54" y="5.08"/>
+<gate name="G$1" symbol="NCP161_711AJ" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOP95P275X110-5N">
+<device name="" package="REG_NCP160AMX180TBG">
 <connects>
 <connect gate="G$1" pin="EN" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="NC" pad="4"/>
-<connect gate="G$1" pin="OUT" pad="5"/>
+<connect gate="G$1" pin="IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -524,7 +596,7 @@ Creation Date: 2015-01-06,
 <part name="U$1" library="Schottky_0603" deviceset="B220A-13-F" device=""/>
 <part name="C1" library="Capacitor_2.2uF_0603" deviceset="06036D225KAT2A" device=""/>
 <part name="D1" library="WL-SWTP" deviceset="WL-SWTP" device="3014"/>
-<part name="U$2" library="NCV8161_LDO" deviceset="NCV8161" device=""/>
+<part name="U$3" library="NCP160AMX180TBG" deviceset="NCP161_711AJ" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -536,7 +608,7 @@ Creation Date: 2015-01-06,
 <instance part="U$1" gate="A" x="10.16" y="76.2"/>
 <instance part="C1" gate="G$1" x="25.4" y="55.88" rot="R90"/>
 <instance part="D1" gate="G$1" x="137.16" y="76.2" rot="R180"/>
-<instance part="U$2" gate="G$1" x="66.04" y="71.12"/>
+<instance part="U$3" gate="G$1" x="68.58" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -546,25 +618,27 @@ Creation Date: 2015-01-06,
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="A" pin="C"/>
-<pinref part="U$2" gate="G$1" pin="IN"/>
 <wire x1="12.7" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="IN"/>
+<wire x1="55.88" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
 <junction x="25.4" y="76.2"/>
-<pinref part="U$2" gate="G$1" pin="EN"/>
-<wire x1="38.1" y1="76.2" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="60.96" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
-<junction x="38.1" y="76.2"/>
+<pinref part="U$3" gate="G$1" pin="EN"/>
+<wire x1="43.18" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="68.58" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="68.58" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="55.88" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
+<junction x="43.18" y="76.2"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="48.26" y1="43.18" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="76.2" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
 <junction x="48.26" y="43.18"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="93.98" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="38.1" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="53.34" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
@@ -573,10 +647,10 @@ Creation Date: 2015-01-06,
 <junction x="25.4" y="43.18"/>
 <pinref part="D1" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="76.2" x2="154.94" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="50.8" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="68.58" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
-<junction x="35.56" y="43.18"/>
+<pinref part="U$3" gate="G$1" pin="GND"/>
+<wire x1="83.82" y1="76.2" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="76.2" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
+<junction x="93.98" y="43.18"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -593,11 +667,13 @@ Creation Date: 2015-01-06,
 <wire x1="7.62" y1="76.2" x2="-7.62" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$5" class="0">
 <segment>
+<pinref part="U$3" gate="G$1" pin="OUT"/>
+<wire x1="83.82" y1="83.82" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="83.82" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="U$2" gate="G$1" pin="OUT"/>
-<wire x1="104.14" y1="76.2" x2="83.82" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

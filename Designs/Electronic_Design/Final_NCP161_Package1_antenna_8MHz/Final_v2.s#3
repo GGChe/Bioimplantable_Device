@@ -620,6 +620,9 @@ Creation Date: 2015-01-06,
 <wire x1="25.4" y1="60.96" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
 <junction x="43.18" y="76.2"/>
+<pinref part="U$2" gate="G$1" pin="OUT"/>
+<wire x1="17.78" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
+<junction x="25.4" y="76.2"/>
 </segment>
 </net>
 <net name="GND" class="0">
